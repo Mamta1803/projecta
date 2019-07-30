@@ -94,13 +94,19 @@ WSGI_APPLICATION = 'projecta.wsgi.application'
 #     }
 # }
 
+# Database host address:Mamta.mysql.pythonanywhere-services.com
+# Username:Mamta
+# Start a console on:Mamta$default
+# Start a console on:Mamta$dpydb
+# password: abc@1803
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dpydb',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'NAME': 'Mamta$dpydb',
+        'USER': 'Mamta',
+        'PASSWORD': 'abc@1803',
+        'HOST': 'Mamta.mysql.pythonanywhere-services.com',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
